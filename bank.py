@@ -20,6 +20,7 @@ if (a == p):
             if(d == 1):
                 e = int(input("enter amount to withdraw:"))
                 if(e <= bal):
+                    bal = bal - e
                     print("Collect your cash")
                     print("Transaction successful")
                     print("Amount debited",e)
