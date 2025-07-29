@@ -22,8 +22,8 @@ def armstrong(n):
       else:
             return False
       
-sr = int(input("enter the start value"))
-er = int(input("enter the end value"))
+sr = int(input("enter the start value:"))
+er = int(input("enter the end value:"))
 if (sr > er):
     print("invalid input")
     
