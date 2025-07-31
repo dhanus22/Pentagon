@@ -6,6 +6,7 @@ def countdig(n):
     return count
 
 def armstrong(n):
+      temp = n
       asn = 0
       if (n < 0):
           n = n * -1
@@ -22,10 +23,15 @@ def armstrong(n):
             return False
 
       
-n = int(input("enter number:"))
-temp = n
-res = armstrong(n)
-print(res)
+count = int(input("enter number:"))
+num = 1
+while(count > 0):
+      flag = armstrong(num)
+      if flag:
+            print(num,end =" ")
+            count -= 1
+      num += 1
+
 
 
 
