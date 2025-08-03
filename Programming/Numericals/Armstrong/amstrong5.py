@@ -23,12 +23,16 @@ def armstrong(n):
       else:
             return False
       
-n = int(input("enter number:"))
+
+count = int(input("Enter the number:"))
 print("Armstrong numbers :")
-for i in range(n):
-      flag = armstrong(i)
-      if flag:
-             print(i, end=" ")
+num = 1
+while count > 0:
+    if armstrong(num):
+        print(num,end=" ")
+        count -= 1
+    num += 1
+
 
 
           
