@@ -5,8 +5,8 @@ def factorial(n,i):
         print(i,end=" ")
         if (i != (n // i)):
             print((n // i),end=" ")
-    i = i + 1
-    return factorial(n,i)
+            
+    return factorial(n,(i +1))
 
 n = int(input("Enter n:"))
 factorial(n,1)
