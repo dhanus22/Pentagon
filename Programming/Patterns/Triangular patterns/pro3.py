@@ -1,4 +1,4 @@
-#Inverted right angle triangle
+#RHS right angle triangle
 n = int(input("Enter n"))
 for i in range(1,(n+1)):
     for k in range(n,i,-1):
