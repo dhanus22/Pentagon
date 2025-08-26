@@ -19,8 +19,8 @@ noc = n
 for i in range(1, n * 2):
     for k in range(n, noc, -1):
         print(" ", end="")
-    for j in range(noc):
-        print("*", end=" ")
+    for j in range(noc): 
+        print("* ", end="")
     print()
     
     if i < n:
@@ -30,7 +30,7 @@ for i in range(1, n * 2):
 
 print("____________________________")
 
-#inverted K pattern
+#RHS K pattern
 noc = n  
 for i in range(1, n * 2):
     for k in range(n,noc,-1):
