@@ -2,7 +2,7 @@ class Farmer:
     r = 2.5
     def __init__(self,p1,t1):
         self.p = p1
-        self.t1 = t1
+        self.t = t1
 
     def disp(self):
         si = (self.p * self.t * Farmer.r) / 100 
